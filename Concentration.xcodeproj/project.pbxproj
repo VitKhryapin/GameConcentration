@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB16BD4827C3B9BC00338AB5 /* Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = FB16BD4727C3B9BC00338AB5 /* Preview.png */; };
 		FB4D7D9C2744E3ED00E0C4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D7D9B2744E3ED00E0C4FE /* AppDelegate.swift */; };
 		FB4D7D9E2744E3ED00E0C4FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D7D9D2744E3ED00E0C4FE /* SceneDelegate.swift */; };
 		FB4D7DA02744E3ED00E0C4FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D7D9F2744E3ED00E0C4FE /* ViewController.swift */; };
 		FB4D7DA32744E3ED00E0C4FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4D7DA12744E3ED00E0C4FE /* Main.storyboard */; };
 		FB4D7DA52744E3EE00E0C4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4D7DA42744E3EE00E0C4FE /* Assets.xcassets */; };
 		FB4D7DA82744E3EE00E0C4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4D7DA62744E3EE00E0C4FE /* LaunchScreen.storyboard */; };
+		FB4D7DB02744F88A00E0C4FE /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D7DAF2744F88A00E0C4FE /* Card.swift */; };
+		FB4D7DB22744F8BF00E0C4FE /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4D7DB12744F8BF00E0C4FE /* ConcentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB16BD4727C3B9BC00338AB5 /* Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview.png; sourceTree = SOURCE_ROOT; };
 		FB4D7D982744E3ED00E0C4FE /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4D7D9B2744E3ED00E0C4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB4D7D9D2744E3ED00E0C4FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		FB4D7DA42744E3EE00E0C4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB4D7DA72744E3EE00E0C4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB4D7DA92744E3EE00E0C4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4D7DAF2744F88A00E0C4FE /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		FB4D7DB12744F8BF00E0C4FE /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				FB4D7D9B2744E3ED00E0C4FE /* AppDelegate.swift */,
 				FB4D7D9D2744E3ED00E0C4FE /* SceneDelegate.swift */,
 				FB4D7D9F2744E3ED00E0C4FE /* ViewController.swift */,
+				FB4D7DB12744F8BF00E0C4FE /* ConcentrationGame.swift */,
+				FB4D7DAF2744F88A00E0C4FE /* Card.swift */,
 				FB4D7DA12744E3ED00E0C4FE /* Main.storyboard */,
 				FB4D7DA42744E3EE00E0C4FE /* Assets.xcassets */,
 				FB4D7DA62744E3EE00E0C4FE /* LaunchScreen.storyboard */,
 				FB4D7DA92744E3EE00E0C4FE /* Info.plist */,
+				FB16BD4727C3B9BC00338AB5 /* Preview.png */,
 			);
 			path = Concentration;
 			sourceTree = "<group>";
@@ -124,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB16BD4827C3B9BC00338AB5 /* Preview.png in Resources */,
 				FB4D7DA82744E3EE00E0C4FE /* LaunchScreen.storyboard in Resources */,
 				FB4D7DA52744E3EE00E0C4FE /* Assets.xcassets in Resources */,
 				FB4D7DA32744E3ED00E0C4FE /* Main.storyboard in Resources */,
@@ -139,7 +149,9 @@
 			files = (
 				FB4D7DA02744E3ED00E0C4FE /* ViewController.swift in Sources */,
 				FB4D7D9C2744E3ED00E0C4FE /* AppDelegate.swift in Sources */,
+				FB4D7DB22744F8BF00E0C4FE /* ConcentrationGame.swift in Sources */,
 				FB4D7D9E2744E3ED00E0C4FE /* SceneDelegate.swift in Sources */,
+				FB4D7DB02744F88A00E0C4FE /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
